@@ -1,0 +1,14 @@
+{
+  "name": "ftp-telegram-uploader",
+  "version": "1.0.0",
+  "description": "Upload photos to tg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Levan",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
