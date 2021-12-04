@@ -13,4 +13,4 @@ OS: CentOS 7
 * В директории ftp создать каталог, за которым будет установлено наблюдение
 * Склонировать репозиторий и установить
 * В файле `index.js` заменить токен бота, id канала и путь до директории ftp
-* Командой incrontab -e изменить пользовательскую таблицу: `/#pathToFtpDir# IN_CLOSE_WRITE FTP_FILE="$#" /bin/node /#pathTo#/index.js`
+* Командой `incrontab -e` изменить пользовательскую таблицу: `/#pathToFtpDir# IN_CLOSE_WRITE FTP_FILE="$#" /bin/node /#pathTo#/index.js`
